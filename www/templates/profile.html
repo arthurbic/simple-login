@@ -1,0 +1,14 @@
+<ion-view view-title="Profile">
+  <ion-nav-buttons side="right">
+    <button class="button" ui-sref="splash">
+      Log out
+    </button>
+  </ion-nav-buttons>
+  <ion-content>
+    <p>Name: {{user.name}}</p>
+    <p>id: {{user.id}}</p>
+    <p>token: {{user.token}}</p>
+    <p>email: {{user.email}}</p>
+    <img ng-src="{{user.picture_url}}">
+  </ion-content>
+</ion-view>
